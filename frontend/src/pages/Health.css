@@ -1,0 +1,43 @@
+.titleDiv{
+    display: block;
+    height: 100%;
+    margin: 0vw;
+    color:#ffffff;
+    background-color: #1B1B1B;
+}
+.title{
+    font-size: 300%;
+    color:#ffffff;
+    background-color: #1B1B1B;
+}
+.health-content{
+    color:#ffffff;
+}
+.tabs{
+    display:flex;
+    border-top: 3px #989898 solid;
+    .separator{
+        width: 0.2vw;
+        background-color: #0F0F0F;
+    }
+    .opt1 {
+        color: #ffffff;
+        flex:1;
+        text-align: center;
+        background-color: #0F0F0F;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh 8.5vw;
+        font: 900 3.5vh Nunito, sans-serif;
+    }
+    .opt2 {
+        color: #ffffff;
+        flex:1;
+        text-align: center;
+        background-color: #0F0F0F;
+        justify-content: center;
+        align-items: center;
+        padding: 1vh 8.5vw;
+        font: 900 3.5vh Nunito, sans-serif;
+    }
+}

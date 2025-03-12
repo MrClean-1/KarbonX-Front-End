@@ -1,0 +1,100 @@
+.battery-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3vh 1vw 2vh;
+  }
+  .battery-span {
+    display: flex;
+    margin-top: 2vh;
+    width: 60vw;
+    max-width: 60vw;
+    flex-direction: column;
+  }
+  .battery-div {
+    align-self: stretch;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 10vw;
+  }
+  .battery-div2 {
+    display: flex;
+    margin-top: 1vh;
+    flex-direction: column;
+  }
+  .date-selector{
+    margin-bottom:5vh;
+  }
+  .battery-span2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+  }
+  .battery-id {
+    color: #ffffff;
+    text-align: center;
+    margin: auto 0;
+    font: 400 3.5vh Nunito, sans-serif;
+  }
+  .battery-div3 {
+    border-radius: 60vw;
+    border: 1px solid #ffffff;
+    background-color: #1B1B1B;
+    align-self: stretch;
+    display: flex;
+    width: 8vw;
+    height:4vh;
+    flex-direction: column;
+  }
+  .battery-div4 {
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    text-align: center;
+    position: relative;
+    fill: #1B1B1B;
+    stroke: #ffffff;
+    overflow: hidden;
+    align-self: stretch;
+    aspect-ratio: 3.05;
+    justify-content: center;
+    padding: 2vw 4vh;
+    font: 400 24px Nunito, sans-serif;
+  }
+  .battery-bar{
+    height: 2vh;
+    margin-top: 1vh;
+    border: 0.1vw solid #ffffff;
+  }
+  .battery-search {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .battery-health {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+  .critical-container{
+    display: grid;
+    grid-template-columns: repeat(5,5vw);
+    gap:2vw;
+  }
+  .critical-node{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 5vh;
+    font-size:2vw;
+    cursor: pointer;
+    border: 0.2vw solid #ffffff;
+  }
+.critical-node:hover{
+  background-color:lightgray;
+}

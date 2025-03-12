@@ -1,0 +1,47 @@
+    .div{
+        width:19.6vw;
+        height:auto;
+        background-color: #1B1B1B;
+        border-right: 3px #989898 solid;
+        .column {
+          display: flex;
+          width:18vw;
+          flex-direction: column;
+          line-height: normal;
+          margin-left: 0px;
+        }
+        .div-2 {
+          display: flex;
+          flex-grow: 1;
+          flex-direction: column;
+          align-items: center;
+        }
+        .img {
+          aspect-ratio: 4.17;
+          object-fit: contain;
+          object-position: center;
+          margin-left: 1vw;
+          width: 20vw;
+          overflow: hidden;
+          z-index: 1;
+        }
+        .div-3 {
+          align-self: stretch;
+          display: flex;
+          flex-direction: column;
+          height:80vh;
+          width:9.5vw;
+          gap: 5vh;
+          padding: 10vh 5vw;
+        }
+        .div-4 {
+          color: #fff;
+          text-align: center;
+          height:10vh;
+          width:12vw;
+          border: none;
+          border-radius: 25px;
+          justify-content: center;
+          font: 900 3.5vh Nunito, sans-serif;
+        }
+    }

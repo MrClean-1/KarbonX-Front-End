@@ -1,0 +1,61 @@
+.pageWrapper{
+    margin: 0vw;
+}
+.homePage-container{
+    display:flex;
+    flex-wrap:wrap;
+    background: #0F0F0F;
+    border-top: 3px #989898 solid;
+}
+.titleDiv{
+    display: block;
+    margin: 0vw;
+    color:#ffffff;
+    background-color: #1B1B1B;
+}
+.title{
+    font-size: 300%;
+    color:#ffffff;
+    background-color: #1B1B1B;
+}
+.summaryInfo{
+    width:40vw;
+}
+.nodeSummary{
+    margin-left:2vw;
+    display:flex;
+    margin-top:4vh;
+    flex-direction:column;
+    gap:1vw;
+    align-items:flex-start;
+}
+.summary-id {
+    color: #ffffff;
+    font: 400 3.5vh Nunito, sans-serif;
+  }
+  .summary-div {
+    border: 1px solid #ffffff;
+    background-color: rgba(217, 217, 217, 0);
+
+    width: 8vw;
+    height:4vh;
+  }
+  .summary-div2 {
+    color: #000;
+    text-align: center;
+    position: relative;
+    fill: #858484;
+    stroke: #000;
+    overflow: hidden;
+    aspect-ratio: 3.05;
+    padding: 2vw 4vh;
+    font: 400 24px Nunito, sans-serif;
+  }
+  .summary-search {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
