@@ -294,7 +294,7 @@ function CarbonMass() {
                 <button
                   onClick={handleCheckError}
                   loading="lazy"
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/0986cc36e8b05190ed4fbb682c882eda47787ae7a212d63a05bd74e32df1bf2d?apiKey=b5d446799a5e4e7ab3e01b97a5ff1ee2&"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/0986cc36e8b05190ed4fbb682c882eda47787ae7a212d63a05bd74e32df1bf2d"
                   className="CMass-search"
                 >
                   Select
